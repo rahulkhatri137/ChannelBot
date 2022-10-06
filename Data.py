@@ -1,16 +1,13 @@
 from pyrogram.types import InlineKeyboardButton
 
-
 class Data:
     # Start Message
     START = """
 Hey {}
 
-Welcome to {}
-
 You can use me to manage channels with tons of features. Use below buttons to learn more !
 
-By @StarkBots
+By @Bots137
     """
 
     # Home Button
@@ -20,7 +17,7 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Status and More Bots ✨", url="https://t.me/Bots137")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
@@ -50,7 +47,7 @@ Alternative Commands
     ABOUT = """
 **About This Bot** 
 
-A telegram channel automation bot by @StarkBots
+A telegram channel automation bot by @Bots137
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/ChannelBot)
 
